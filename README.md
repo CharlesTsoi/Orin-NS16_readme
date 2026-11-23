@@ -4,7 +4,7 @@
 
 第一次使用 2026-10-13 的已解析点云，见第 1–9 节。脚本位于 `config/x30.yaml`、`config/x30.launch`、`scripts/`，栅格与轨迹位于 `results/`。
 
-第二次使用 2026-11-13 机器狗上的单台 Mid-360 原始消息，见第 10 节。参数位于 `config/x30_1113.yaml` 与 `config/x30_1113.launch`，启动脚本为 `scripts/run_1113.sh`。占据栅格为 `results/20261113/map.pgm`。供后端优化使用的接口说明见 [README_room.md](README_room.md)，只记录话题订阅、转换和实际传入的参数。网口对接步骤见 [README_network.md](README_network.md)。在 NS16 上订阅并确认点云见 [README_lidar.md](README_lidar.md)。
+第二次使用 2026-11-13 机器狗上的单台 Mid-360 原始消息，见第 10 节。参数位于 `config/x30_1113.yaml` 与 `config/x30_1113.launch`，启动脚本为 `scripts/run_1113.sh`。占据栅格为 `results/20261113/map.pgm`。供后端优化使用的接口说明见 [README_room.md](README_room.md)，只记录话题订阅、转换和实际传入的参数。网口对接步骤见 [README_network.md](README_network.md)。接入机器狗后订阅点云见 [README_lidar.md](README_lidar.md)。
 
 ## 1. 试验条件
 
